@@ -155,42 +155,68 @@
         <div class="container-fluid">
                 <div class="card-header d-flex justify-content-between">
                     <!-- Page Heading -->
-                    <h1 class="h3 col-lg-9 mb-4 mx-0 text-primary">Blank</h1>  
+                    <h1 class="h3 col-lg-9 mb-4 mx-0 text-primary">Region Master</h1>  
                     <div class="col-lg-3">
-                        <a href="#" class="float-right btn btn-info btn-icon-split">
+                        <a href="region-add.html" class="float-right btn btn-info btn-icon-split">
                             <span class="icon text-white-50">
                               <i class="fas fa-plus"></i>
                             </span>
-                            <span class="text">Add</span>
+                            <span class="text">Add Region</span>
                           </a>
                     </div>
                 </div>
 
                 <div class="card shadow my-4">
                     <div class="card-header py-3">
-                      <h6 class="m-0 font-weight-bold text-primary">List</h6>
+                      <h6 class="m-0 font-weight-bold text-primary">Region List</h6>
                     </div>
                     <div class="card-body">
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <thead>
                               <tr>
-                                <th>Field1</th>
-                                <th>Field2</th>
-                                <th>Field3</th>
+                                <th>Name</th>
+                                <th>Region Code</th>
+                                <th>updated by</th>
                                 <th>Action</th>
                               </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                  <td>Test data</td>
+                                  <td>North Asia</td>
                                   <td>NA</td>
-                                  <td>Test</td>
+                                  <td>Levin</td>
                                   <td>
                                       <a class="mr-3 text-info" href="#"><i class="fa fa-edit m-1"></i>Edit</a>
                                       <a class="text-danger" href="#" data-toggle="modal" data-target="#deleteModal"><i class="fa fa-trash-alt m-1"></i>Delete</a>
                                   </td>
                                 </tr>
-                                
+                                <tr>
+                                    <td>South Asia</td>
+                                    <td>SA</td>
+                                    <td>Jack</td>
+                                    <td>
+                                        <a class="mr-3 text-info" href="#"><i class="fa fa-edit m-1"></i>Edit</a>
+                                        <a class="text-danger" href="#" data-toggle="modal" data-target="#deleteModal"><i class="fa fa-trash-alt m-1"></i>Delete</a>
+                                    </td>
+                                  </tr>
+                                <tr>
+                                    <td>Europe</td>
+                                    <td>EU</td>
+                                    <td>Levin</td>
+                                    <td>
+                                        <a class="mr-3 text-info" href="#"><i class="fa fa-edit m-1"></i>Edit</a>
+                                        <a class="text-danger" href="#" data-toggle="modal" data-target="#deleteModal"><i class="fa fa-trash-alt m-1"></i>Delete</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Russia</td>
+                                    <td>RA</td>
+                                    <td>Jack</td>
+                                    <td>
+                                        <a class="mr-3 text-info" href="#"><i class="fa fa-edit m-1"></i>Edit</a>
+                                        <a class="text-danger" href="#" data-toggle="modal" data-target="#deleteModal"><i class="fa fa-trash-alt m-1"></i>Delete</a>
+                                    </td>
+                                  </tr>
                             </tbody>
                         </table>
                     </div>
@@ -237,8 +263,7 @@
       </div>
     </div>
   </div>
-
-  <!-- Delete Modal -->
+<!-- Delete Modal -->
   <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -256,7 +281,6 @@
       </div>
     </div>
   </div>
-
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
